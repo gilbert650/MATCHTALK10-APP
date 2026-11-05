@@ -1,0 +1,98 @@
+.dash{
+    width:fit-content;
+    height: fit-content;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 4px;
+    color: white;
+      /* border: 1px solid red; */
+    box-shadow: gray;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    
+}
+button{
+    width:6cm;
+      /* border: 1px solid red; */
+    padding-bottom: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+h2{
+    color: white;
+}
+#p{
+  color:lawngreen;
+}
+.views{
+    width: 6cm;
+    height: 3cm;
+    background-color: black;
+    border-radius: 5px;
+      /* border: 1px solid red; */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.likes{
+    width: 6cm;
+    height: 3cm;
+      /* border: 1px solid red; */
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.comments{
+    width: 6cm;
+    height: 3cm;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      /* border: 1px solid red; */
+}
+.shares{
+    width: 6cm;
+    height: 3cm;
+    background-color: black;
+    border-radius: 5px;
+      /* border: 1px solid red; */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.subscribers{
+    width: 6cm;
+    height: 3cm;
+    background-color: black;
+    border-radius: 5px;
+      /* border: 1px solid red; */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.count{
+    width:fit-content;
+    height:fit-content;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: inset;
+    margin: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 500px;
+    border-color: red;
+    border: 10cm;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+      border: 1px solid black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+     margin-top: 0;
+    align-self: start; 
+    }
+button{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.livematches{
+width: auto;
+height: auto;
+background-color: grey;
+}

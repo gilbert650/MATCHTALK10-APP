@@ -1,0 +1,43 @@
+input{
+    width: 8cm;
+    height: 1cm;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 20px;
+    border: black solid 2px;
+}
+label{
+    color: black;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+    color: white;
+    background-color: red;
+    /* width: auto;
+    height: auto; */
+    border-radius: 5px;
+    border: black solid 2px;
+    cursor: pointer;
+     width: 8cm;
+    height: 1cm;
+}
+.create{
+    background-color: white;
+    width: 10cm;
+    height: 10cm;
+text-align: center;
+margin-left: 420px;
+
+}
+h2{
+    margin-left: 500px;
+}
+h1{
+    margin-left: 500px;
+    font-family: algerian;
+    font-size: 30px;
+}

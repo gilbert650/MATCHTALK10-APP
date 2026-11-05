@@ -1,0 +1,97 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head> 
+<link rel="stylesheet" href="live.css"><body>
+<h1>LIVE - MATCH</h1>
+
+<!-- Video -->
+<video controls>
+    <source src="myvideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- Live Score -->
+<div class="live">
+
+    <!-- Home Team -->
+    <h2 id="hometeam">APR FC</h2>
+    <p id="homegoal">0</p>
+
+    <button id="homegoalbutton">
+        APR FC GOAL
+    </button>
+
+    <!-- Away Team -->
+    <h2 id="awayteam">RAYON SPORTS FC</h2>
+    <p id="awaygoal">0</p>
+
+    <button id="awaygoalbutton">
+        RAYON SPORTS FC GOAL
+    </button>
+
+    <!-- Timer -->
+    <p id="timer">00:00</p>
+
+</div>
+
+<script>
+    // Scores
+    let homeGoal = 0;
+    let awayGoal = 0;
+
+    // Timer
+    let timer = 0;
+
+    // Get HTML elements
+    const homeGoalElement = document.getElementById("homegoal");
+    const awayGoalElement = document.getElementById("awaygoal");
+
+    const homeGoalButton =
+        document.getElementById("homegoalbutton");
+
+    const awayGoalButton =
+        document.getElementById("awaygoalbutton");
+
+    const timerElement =
+        document.getElementById("timer");
+
+
+    // APR FC goal
+    homeGoalButton.addEventListener("click", function () {
+
+        homeGoal++;
+
+        homeGoalElement.textContent = homeGoal;
+
+    });
+
+
+    // Rayon Sports goal
+    awayGoalButton.addEventListener("click", function () {
+
+        awayGoal++;
+
+        awayGoalElement.textContent = awayGoal;
+
+    });
+
+
+    // Match timer
+    setInterval(function () {
+
+        timer++;
+
+        const minutes = Math.floor(timer / 60);
+        const seconds = timer % 60;
+
+        timerElement.textContent =
+            `${minutes.toString().padStart(2, "0")}:${seconds
+                .toString()
+                .padStart(2, "0")}`;
+
+    }, 1000);
+
+</script>
+
+</body> </html>
