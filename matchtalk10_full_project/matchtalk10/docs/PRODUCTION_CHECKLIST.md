@@ -1,0 +1,13 @@
+# Production readiness
+- [ ] Obtain commercial display/redistribution rights for each sports competition and territory.
+- [ ] Confirm news article, image, excerpt and ingestion permissions.
+- [ ] Implement provider adapters, mappings, retries, rate-limit handling and reconciliation.
+- [ ] Implement event idempotency, corrections, score rules and Socket.IO rooms.
+- [ ] Complete authentication, MFA, RBAC, audit logs and recovery.
+- [ ] Complete admin management, editorial review and moderation.
+- [ ] Add consent, personalization controls, retention and deletion.
+- [ ] Configure push credentials and app-store accounts.
+- [ ] Add integration, E2E, load, accessibility and security tests.
+- [ ] Configure HTTPS, firewall, secrets, backups and restore drills.
+- [ ] Add metrics, logs, traces, alerting and runbooks.
+- [ ] Test staging, rollback, capacity and production readiness.
